@@ -26,3 +26,13 @@
 
 
 }
+
+.lista_menu{ 
+  display: none;
+
+}
+
+.container_botão:checked~.lista_menu {
+   display: block;
+
+}
