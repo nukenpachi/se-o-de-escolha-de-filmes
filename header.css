@@ -29,10 +29,34 @@
 
 .lista_menu{ 
   display: none;
-
+  position: absolute;
+  top: 100%;
+  width: 60vw ;
 }
 
 .container_botão:checked~.lista_menu {
    display: block;
 
 }
+
+.menu_lista_titulo,
+.menu_lista_item {
+  padding: 1em;
+  background-color: var(--categorias) ;
+  color: var(--letras);
+}
+
+.menu_lista_titulo {
+     color:var(--titulo);
+
+}
+
+.menu_lista_link {
+     background: var(--degradante);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-transform: uppercase;
+
+
+    }

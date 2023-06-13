@@ -3,6 +3,10 @@
 :root {
  --cor-de-fundo: #000000;
  --cabeçalho: #160425;
+ --letras: #DBB8FF;
+ --categorias: #1F0032;
+ --titulo:  #ac59ff;
+ --degradante: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%)
 }
 body {
     background-color: var(--cor-de-fundo);
