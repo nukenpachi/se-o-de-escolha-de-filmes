@@ -12,19 +12,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container {
     display: flex;
     align-items: center;
+    padding: 1%;
 
 
 }
 
 .container_imagem {
-   padding: 1em;
-
-
+  width: 24px;  
+  height: 24px; 
+  display: flex;
+  justify-content: space-between;
+  position:sticky;
+  left: 100px;
+  top: 50px; 
 }
 
 .lista_menu{ 
@@ -46,12 +52,14 @@
   color: var(--letras);
 }
 
-.menu_lista_titulo {
-     color:var(--titulo);
+.lista_menu_titulo {
+     color: var(--titulo);
+     background-clip: text;
+     text-transform: uppercase;
 
 }
 
-.menu_lista_link {
+.lista_menu_link {
      background: var(--degradante);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
