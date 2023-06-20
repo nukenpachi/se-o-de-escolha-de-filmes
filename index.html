@@ -35,13 +35,23 @@
     </div>
     <div class="container">
 
-       <img src="menu.png" alt="Menu para obções de filmes." class="container_imagem">
-       <a href="#"><img src="favorito.png" alt="Favoritos" class="container_imagem"></a>
+       <img src="menu.png" alt="Menu para obções de filmes." class="menu_imagem">
+       <a href="#"><img src="favorito.png" alt="Favoritos" class="container_imagem" class="favorito_imagem"></a>
        <a href="#"><img src="casa.png" alt="Página inicial" class="container_imagem"></a>
        <a href="#"><img src="lupa.png" alt="Pesquisa" class="container_imagem"></a>
        <a href="#"><img src="ajuda.png" alt="Ajuda" class="container_imagem"></a>
        <a href="#"><img src="perfil-de-usuario.png" alt="Perfil" class="container_imagem"></a>
     </div>
 </header>
+
+<script>
+  // Adicionar evento de clique na imagem do menu
+  var menuImagem = document.getElementById('menuImagem');
+  menuImagem.addEventListener('click', function() {
+    var listaMenu = document.querySelector('.lista_menu');
+    listaMenu.style.display = 'block';
+  });
+</script>
+
 </body>
 </html>

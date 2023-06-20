@@ -28,9 +28,20 @@
   height: 24px; 
   display: flex;
   justify-content: space-between;
-  position:sticky;
-  left: 100px;
-  top: 50px; 
+  position: relative;
+  width: 30px; /* largura do container */
+  height: 30px; /* altura do container */
+}
+
+.menu_imagem{
+  width: 24px;  
+  height: 24px; 
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 10px; /* posição vertical em relação ao topo */
+  left: 10px; /* posição horizontal em relação à esquerda */
+  
 }
 
 .lista_menu{ 
